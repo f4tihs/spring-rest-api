@@ -15,6 +15,8 @@ public class EmployeeService {
     private EmployeeRepository employeeRepository;
 
     public List<Employee> getAllEmployeeList(){
+        // Insert future controls here
+        employeeRepository.getAllEmployeeList();
         return null;
     }
 }
