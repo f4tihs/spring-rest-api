@@ -19,6 +19,6 @@ public class RestEmployeeController {
 
     @GetMapping(path = "/employee-list")
     public List<Employee> getAllEmployeeList(){
-        return null;
+        return employeeService.getAllEmployeeList();
     }
 }
